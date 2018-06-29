@@ -17,7 +17,6 @@ class CheckoutSystemTest extends FlatSpec {
   }
 
   behavior of "calculateTotalCost"
-
   it should "calculate the total cost for scanned items" in {
     val scannedItems = List(Apple, Apple, Orange, Apple)
 
@@ -25,7 +24,6 @@ class CheckoutSystemTest extends FlatSpec {
   }
 
   behavior of "calculateTotalCostAfterOffer"
-
   it should "calculate the total cost for scanned items with offer applied" in {
     val scannedItems = List(Apple, Apple, Orange, Apple, Apple, Apple)
 
