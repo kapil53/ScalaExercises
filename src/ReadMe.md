@@ -12,12 +12,19 @@ etc.. up to 999,999,999
 
 Solution -
 #Source
+
 #NumberToEnglishWords
-##convertToEnglishWords (number param), make a call to conversion partial Function to return equivalent in British English words
+
+##convertToEnglishWords (number param)
+
+make a call to conversion partial Function to return equivalent in British English words
 
 #NumberConstants
+
 Constants required for conversion is defined
 
 #Test
+
 #NumberToEnglishWordsTest
+
 Checks for various input cases based on the boundaries defined for implementation
