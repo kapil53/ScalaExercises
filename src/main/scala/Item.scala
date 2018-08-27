@@ -9,3 +9,7 @@ case object Apple extends Item {
 case object Orange extends Item {
   override def cost: Double = 0.25
 }
+
+case object Banana extends Item {
+  override def cost: Double = 0.20
+}
