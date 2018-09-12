@@ -52,7 +52,7 @@ class CafeXSystemTest extends FlatSpec {
     CafeXSystem.produceStandardBill(purchasedItems) should be(3.5)
   }
 
-  behavior of "applyServiceCharge"
+  behavior of "produceBillWithServiceCharge"
   it should "apply no service charge when all purchased items are drinks" in {
     val purchasedItems = List(Cola, Coffee)
 
